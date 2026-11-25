@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/DAFramework/Buff/Editor/Style.uss?fileID=7433441132597879392&amp;guid=badc07ed7af966a428350936ece7083a&amp;type=3#Style" />
+    <ui:VisualElement name="BuffConfigsWindow" style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="BuffList" style="flex-grow: 0; width: 300px; background-color: rgb(65, 65, 65);">
+            <ui:Button text="CreateBuffConfig" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CreateButton" style="justify-content: center; align-items: auto; -unity-text-align: middle-center; top: 0; bottom: auto; height: 30px;" />
+            <ui:ListView focusable="true" show-bound-collection-size="true" name="BuffListScroll" style="height: 393px; flex-grow: 1; overflow: visible; visibility: visible; display: flex;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="BuffInfo" style="flex-grow: 1; background-color: rgb(65, 65, 65);" />
+    </ui:VisualElement>
+</ui:UXML>
